@@ -1,0 +1,11 @@
+/* frontend/style.css */
+.sudoku-grid {
+    margin-bottom: 20px;
+  }
+  
+  table input {
+    width: 40px;
+    border: none;
+    text-align: center;
+  }
+  

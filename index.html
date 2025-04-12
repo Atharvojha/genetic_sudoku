@@ -1,0 +1,42 @@
+<!-- frontend/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sudoku Solver using Genetic Algorithm</title>
+  <!-- Bootstrap CDN for styling -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container mt-4">
+    <h1 class="text-center">Sudoku Solver using Genetic Algorithm</h1>
+    <p class="text-center">
+      Made by Atharv Ojha for AI Course Project, submitted to Prof. Delhibabu Radhakrishnan
+    </p>
+    <div class="sudoku-grid mx-auto">
+      <table class="table table-bordered text-center">
+        <tbody>
+          <!-- The table rows will be dynamically populated by script.js -->
+        </tbody>
+      </table>
+    </div>
+    <div class="text-center mb-3">
+      <button id="solveBtn" class="btn btn-primary">Solve Sudoku</button>
+      <button id="randomBtn" class="btn btn-secondary">Random Puzzle</button>
+    </div>
+    <div id="solutionDiv" class="mt-4 text-center" style="display: none;">
+      <h2>Solution</h2>
+      <div id="solutionGrid" class="sudoku-grid mx-auto"></div>
+    </div>
+    <!-- Optional progress bar -->
+    <div id="progressDiv" class="mt-4" style="display: none;">
+      <h4>GA Progress</h4>
+      <div class="progress">
+        <div id="progressBar" class="progress-bar" role="progressbar" style="width: 0%;">0%</div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

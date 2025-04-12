@@ -1,0 +1,9 @@
+
+## Requirements
+
+- Python 3.x
+
+Install the Python dependencies with:
+
+```bash
+pip install -r requirements.txt
